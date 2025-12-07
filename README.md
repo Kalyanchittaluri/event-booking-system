@@ -62,6 +62,37 @@ These are not real payments; they are only for interface demonstration:
  - CVV: 123  
  - Name:  Any name
 
+Setup Instructions (Local)
+Clone Repo
+git clone https://github.com/Kalyanchittaluri/event-booking-system
+cd event-booking-system
+
+Backend Setup
+cd backend
+npm install
+
+Create .env file inside backend:
+PORT=5000
+MONGO_URL=<your mongo atlas uri>
+JWT_SECRET=event123secret
+
+Run backend:
+node server.js
+
+Expected:
+Server running on port 5000
+MongoDB Connected
+
+Frontend Setup
+Open new terminal:
+cd frontend
+npm install
+npm start
+
+App launches at:
+👉 http://localhost:3000/
+
+
 Project Structure
 event-booking-system/
  ├── backend/
@@ -95,3 +126,4 @@ event-booking-system/
      ├── package.json
      └── public/
          └── index.html
+
