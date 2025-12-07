@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #0e0e10;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+input {
+  background: #1e1e22;
+  border: 1px solid #333;
+  padding: 10px;
+  width: 90%;
+  margin: 8px 0;
+  border-radius: 6px;
+  color: white;
+}
+
+button {
+  width: 95%;
+  background: #4c8bf5;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #3e76d5;
+}

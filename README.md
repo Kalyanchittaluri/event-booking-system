@@ -1,4 +1,3 @@
-# event-booking-system
 Event Booking System (MERN)
 A full-stack Event Booking System built using the MERN stack (MongoDB, Express.js, React, Node.js).
 Users can browse events, book tickets with a dummy payment interface, and view their bookings. Admin can add new events and manage availability.

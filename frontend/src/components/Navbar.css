@@ -1,0 +1,26 @@
+.navbar {
+  background: #151515;
+  padding: 14px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+
+.navbar .brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4c8bf5;
+}
+
+.navbar a {
+  margin-left: 18px;
+  color: #e3e3e3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #4c8bf5;
+  transition: 0.3s;
+}
